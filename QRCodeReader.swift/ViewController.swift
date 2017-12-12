@@ -170,6 +170,7 @@ class ViewController: UIViewController, UIScrollViewDelegate, QRCodeReaderViewCo
         
         
         print("For test branches")
+        print("For the test branch, part 2")
         
         
         var button = UIButton(frame: CGRect(x: margin_left, y: once_margin_top, width: button_w, height: button_h))
