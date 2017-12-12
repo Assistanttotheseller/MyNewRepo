@@ -168,11 +168,7 @@ class ViewController: UIViewController, UIScrollViewDelegate, QRCodeReaderViewCo
         fonts[10]="Courier-BoldOblique"
         fonts[11]="Courier-Oblique"
         
-        
-        print("For test branches")
-        print("For the test branch, part 2")
-        
-        
+
         var button = UIButton(frame: CGRect(x: margin_left, y: once_margin_top, width: button_w, height: button_h))
         button.setTitle("QR-код", for: .normal)
         button.titleLabel?.adjustsFontSizeToFitWidth = true
