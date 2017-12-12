@@ -108,9 +108,6 @@ class ViewController: UIViewController, UIScrollViewDelegate, QRCodeReaderViewCo
 
         if (head)
         {
-            //label.layer.shadowOpacity = 1.0
-            //label.layer.shadowOffset = CGSize(width: 0, height: 0)
-            //label.layer.shadowRadius = 0
             let front = UIFont(name: "GillSans-SemiBold", size: 22)
             label.font = front
         }
@@ -172,7 +169,7 @@ class ViewController: UIViewController, UIScrollViewDelegate, QRCodeReaderViewCo
         fonts[11]="Courier-Oblique"
         
         
-        
+        print("For test branches")
         
         
         var button = UIButton(frame: CGRect(x: margin_left, y: once_margin_top, width: button_w, height: button_h))
