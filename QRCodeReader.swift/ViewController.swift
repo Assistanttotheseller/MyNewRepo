@@ -172,7 +172,7 @@ class ViewController: UIViewController, UIScrollViewDelegate, QRCodeReaderViewCo
         fonts[11]="Courier-Oblique"
         
         
-        
+        print("Hi there, Master")
         
         
         var button = UIButton(frame: CGRect(x: margin_left, y: once_margin_top, width: button_w, height: button_h))
